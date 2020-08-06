@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <title>Draw</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+       <link rel="stylesheet" href="src/css/main.css">
+    </head>
+    <body>
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li><span id="trackX"></span></li>
+            <li><span id="trackY"></span></li>
+            <li><button id="btnRect">Rectangle</button>
+              <div>
+                <input type="color" id="colorWell" name="rectangle-color"
+                       value="#00000">
+                <label for="colorWell">Color</label>
+            </div></li>
+            <li><button id="btnLine">Line</button>   
+              <div>
+              <input type="color" id="colorWell" name="line-color"
+                     value="#ff0000">
+              <label for="colorWell">Color</label>
+            </div></li>
+            <li><button id="btnCircle">Circle</button>   
+              <div>
+              <input type="color" id="colorWell" name="circle-color"
+                     value="#00ff00">
+              <label for="colorWell">Color</label>
+            </div></li>
+            <li><button id="btnPath">Path</button>   
+              <div>
+              <input type="color" id="colorWell" name="path-color"
+                     value="#0000ff">
+              <label for="colorWell">Color</label>
+            </div></li>
+          </ul>
+        </nav>
+        <main></main>
+      </div>
+      <script src="src/js/main.js"></script>
+    </body>
+</html>
